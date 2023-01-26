@@ -1,7 +1,6 @@
 .button {
   width: 100px;
   background-color: transparent;
-  border-radius: 5px;
   padding: 5px 15px;
   cursor: pointer;
 
@@ -10,8 +9,10 @@
   }
 
   &:hover {
-    border-color: green;
-    color: green;
+    border-color: blue;
+    color: white;
+    background-color: yellow;
     transform: scale(1.04);
+    font-weight: bold;
   }
 }
